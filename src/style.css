@@ -1,12 +1,13 @@
 body {
     background-color: rgb(129, 245, 106);
-    .padre {
-        background: yellow;
-        height: 100px;
-      }
-      
-      .hijo {
-        /* IMPORTANTE */
-        line-height: 100px;
-      }
+  }
+
+  .padre {
+    background: yellow;
+    height: 100px;
+  }
+  
+  .hijo {
+    /* IMPORTANTE */
+    line-height: 100px;
   }
