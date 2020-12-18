@@ -16,7 +16,7 @@ const cipher = {
         finalNumber = (ascciNumber - 65 + offset) % 26 + 65;
       }
       else {
-        finalNumber = 32
+        finalNumber = 32;
       }
       //aqui debe cerrse el if
 
@@ -39,10 +39,10 @@ const cipher = {
       ascciNumber = (string.charCodeAt(i))
       //Capital Letters from 65 to 90      
       if (ascciNumber != 32) {  // espacio
-        finalNumber = (ascciNumber - 65 - offset) % 26 + 65;
+        finalNumber = (ascciNumber + 65 - offset) % 26 + 65;
       }
       else {
-        finalNumber = 32
+        finalNumber = 32;
       }
       //aqui debe cerrse el if
 
