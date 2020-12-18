@@ -2,34 +2,33 @@ import cipher from './cipher.js';
 
 // Funcion para codificar 
 
-document.getElementById("btnEncode").addEventListener("click", function(){
-    let texto=document.getElementById("string").value;
-    let despl=document.getElementById("offset").value;
+document.getElementById("btnEncode").addEventListener("click", function () {
+    let textEntry = document.getElementById("string").value;
+    let texto = textEntry.toUpperCase();
+    let despl = document.getElementById("offset").value;
     let offset = parseInt(despl, 10);
-    let resultado = ''
-    
-    if (!despl || !texto) { // falsy : undefined | null | "" | '' | 0
-        resultado = "Falta ingresar el mensaje y el desplazamiento";
+    let encodeString = ''
+    if (!despl || !texto) { // falsy : undefined | null | "" | '' | 0    Este if es para validar los datos ingresados
+       encodeString = "Falta ingresar el mensaje y o el desplazamiento";
     } else {
-        resultado = cipher.encode(offset, texto);         
+        encodeString = cipher.encode(offset, texto);
     }
+    document.querySelector("#outcome").innerHTML = encodeString;
 
-    document.querySelector("#resultado").innerHTML = resultado; 
-    
-    
-});    
+});
 
-document.getElementById("btnDecode").addEventListener("click", function(){
-    let texto=document.getElementById("string").value;
-    let despl=document.getElementById("offset").value;
+document.getElementById("btnDecode").addEventListener("click", function () {
+    let textEntry = document.getElementById("string").value;
+    let texto = textEntry.toUpperCase();
+    let despl = document.getElementById("offset").value;
     let offset = parseInt(despl, 10);
 
-    let resultado = ''
-    
+    let decodeString = ''
+
     if (!despl || !texto) { // falsy : undefined | null | "" | '' | 0
-        resultado = "Falta ingresar el mensaje y el desplazamiento";
+       decodeString = "Falta ingresar el mensaje y o el desplazamiento";
     } else {
-        resultado = cipher.decode(offset, texto);         
+        decodeString = cipher.decode(offset, texto);
     }
-    document.querySelector("#resultado").innerHTML=resultado;
+    document.querySelector("#outcome").innerHTML = decodeString;
 }); 

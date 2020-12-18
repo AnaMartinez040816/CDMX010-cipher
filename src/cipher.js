@@ -1,9 +1,5 @@
 const cipher = {
   encode: function (offset, string) {
-    //validando entradas
-    //if (offset === null  &&  string === null){
-     //  throw new TypeError(¨Falta ingresar el mensaje y el desplazamiento)
-    //}
     // ...Codificacion
       //Capital Letters from 65 to 90  
     let encodeString = "";
@@ -18,7 +14,6 @@ const cipher = {
       else {
         finalNumber = 32;
       }
-      //aqui debe cerrse el if
 
       newLetter = String.fromCharCode(finalNumber);
 
@@ -30,7 +25,7 @@ const cipher = {
 
   decode: function (offset, string) {
     // ...Decodificacion
-    let encodeString = "";
+    let decodeString = "";
     let newLetter = " ";
     let ascciNumber = 0
     let finalNumber = 0
@@ -44,31 +39,15 @@ const cipher = {
       else {
         finalNumber = 32;
       }
-      //aqui debe cerrse el if
 
       newLetter = String.fromCharCode(finalNumber);                  
 
-      encodeString += newLetter;
+      decodeString += newLetter;
     }
-    return encodeString;
+    return decodeString;
 
 
   }
-
-  
- 
-    //validate: function (offset, string) {
-      //validando entradas
-      //if (offset === null  ||  string === null) {
-        
-       // throw new TypeError(¨Falta ingresar el mensaje y  o el desplazamiento")
-       // encodeString="error"
-     // }
-      //return encodeString;
-    //},
-
-
-
 
 }
 export default cipher;
