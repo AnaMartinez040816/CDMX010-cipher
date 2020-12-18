@@ -55,6 +55,19 @@ const cipher = {
 
   }
 
+  
+ 
+    //validate: function (offset, string) {
+      //validando entradas
+      //if (offset === null  ||  string === null) {
+        
+       // throw new TypeError(¨Falta ingresar el mensaje y  o el desplazamiento")
+       // encodeString="error"
+     // }
+      //return encodeString;
+    //},
+
+
 
 
 }
