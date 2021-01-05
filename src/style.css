@@ -1,13 +1,33 @@
 body {
-    background-color: rgb(129, 245, 106);
-  }
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia Pro Light;
+}
 
-  .padre {
-    background: yellow;
-    height: 100px;
-  }
-  
-  .hijo {
-    /* IMPORTANTE */
-    line-height: 100px;
-  }
+header{
+    text-align: center;
+    color: rgb(182, 29, 118);
+    font-size: x-large; 
+} 
+
+label {
+  margin-left: 150px;
+  color: rgb(182, 29, 118);
+  font-size: x-large;
+}
+
+.button {
+  margin-left: 350px;
+  display: inline-block;
+  width 200px;
+  color: rgb(182, 29, 118); 
+  background-color: #839baa; 
+  font-size: x-large;
+  text-align: center;
+}
+ 
+.output{
+  color: rgb(116, 5, 71);
+  background-color: #839baa; 
+  font-size: x-large;
+  text-align: center;
+}

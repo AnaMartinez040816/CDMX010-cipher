@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">  <!-- pantalla Cipher -->
-      <h1>Codificar Mensajes</h1>
-      <h3>Mensaje</h3>  <!-- recibir data -->
-      <label for="string"></label>
-       <input type="text"  id="string" name= "string">
-       <label for="offset">Elige el despazamiento</label>
-       <input type="number"  id="offset" name= "offset" min="1" required>
-       <input type="submit" id="btnEncode" value = "Codificar">
-       <input type="submit" id="btnDecode" value = "Decodificar">
 
-      </div>
-        <p>El resultado es </p>
-        <div id="outcome" ></div>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <script src="index.js" type="module"></script> 
-  </body>
+<body>
+  <div id="container">  <!-- pantalla Cipher -->
+    <header>
+      <img src="sobrecorreo.jpg" width="300" alt="" >
+      <h1>Protección de mensajes entre usuarios y colaboradores de la organización</h1>
+    </header>
+    <br> <!-- recibir data -->
+    <label>Escribe el Mensaje     <input type="text" id="string" name="string" /></label>
+    <br/>
+    <br/>
+    <label>Selecciona un Número  (para proteger y desproteger debe ser el mismo)
+      <input type="number" id="offset" name="offset" min="1" required /></label>
+    <br/>
+    <br/>
+    <input class="button" type="submit" id="btnEncode" value="Proteger">
+    <input class="button" type="submit" id="btnDecode" value="Desproteger">  
+  </div>
+  <br/>
+ 
+  <br/>
+  <div class="output" id="outcome"></div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

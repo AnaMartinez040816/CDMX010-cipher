@@ -1,0 +1,10 @@
+git remote -v //repositorio en el cual se trabaja en internet 
+
+git branch // te muestra las branch 
+
+------------------
+git add .     //se añáden los cambioss
+
+git commit -m "aqui va el comentario"
+s
+git push origin master       //este comando sube a la branch master nuestro cambios
