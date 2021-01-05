@@ -8,7 +8,8 @@ document.getElementById("btnEncode").addEventListener("click", function () {
     let displacement = document.getElementById("offset").value;
     let offset = parseInt(displacement, 10);
     let encodeString = ''
-    if (!displacement || !text) { // falsy : undefined | null | "" | '' | 0    Este if es para validar los datos ingresados
+    
+    if (!displacement || !text) { 
        encodeString = "Falta ingresar el mensaje y o el desplazamiento";
     } else {
         encodeString = cipher.encode(offset, text);
