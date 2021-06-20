@@ -43,41 +43,58 @@ aplicación en el sistema ROT13.
 La objetivo del proyecto es facilitar la comunicación de una organización de 
 derechos humanos con sus aliados en una zona de conflicto de manera directa.
 
-Logrando que los mensajes se envien de forma encriptada para lograr realizar sus 
-operaciones, de la manera más discreta posible.
+Para lograr esto es necesario que los mensajes se envien de forma encriptada, 
+coordinando sus operaciones, de la manera más discreta posible.
 
 Los usuarios del proyecto son los miembros de la organización y sus aliados.
 
 Codificando sus mensajes pueen interactuar sin interferencia de terceras personas.
+
 +Eligiendo el número de posiciones de desplazamiento.
+
 +Dando del texto a proteger, en su caso a desproteger.
+
 +Obteniendo el cifrado.
 
 ## 3. Proceso de desarrollo.
 
 El proceso utilizado para desarrollar el proyecto fue:
+
   -Entender claramente lo que hay que hacer y con que elementos contamos; 
+
   -Crear varias alternativas de solución y de estas elegir la mejor;
+
   -Desarrollar;
+
   -Implementar.
 
 ![proceso-creativo](/src/assets/proceso.png)
 
 ## 4. Instrucciones de uso.
+
 +Para usar este proyecto se requieren:
 
  a) un editor como Atom o Visual Studio Code.
+
  b) una shell con CLI y cmder
+
  c) acceso a github.
 
 +Proceso
- a) hacer fork al repositorio https://github.com/AnaMartinez040816/CDMX010-cipher.git 
+
+ a) hacer fork al repositorio https://github.com/AnaMartinez040816/CDMX010-cipher.git
+
  b) Clonar con cmder
+
  c) con el editor abrir la carpeta creada
- d) instalar las dependencias del proyecto con 'npm install'
+
+ d) instalar las dependencias del proyecto con 'npm install
+ '
  e) para utilizar el programa se usa el comando 'npm start' que nos da el host en el browser
- f) copiar 'http://localhost:5000' o la url dada por el comando anterior en la ventana del browser y listo !!.
-    ya puedes codificar y decodificar mensajes.
+
+ f) copiar 'http://localhost:5000' o la url dada por el comando anterior en la ventana del browser.
+
+    ¡ ya puedes codificar y decodificar mensajes!.
 
 ## 5. Demostración.
 
@@ -88,10 +105,16 @@ Aqui se muestra el funcionamiento de la aplicación.
 ## 6. Retrospectiva.
 
 Para el desarrollo de este proyecto inicié el aprendizaje de varias herramientas, entre ellas:
+
 -Metodología Ágil
--Editor Visual Estudio Code y su Chell
+
+-Editor Visual Estudio Code y su Shell
+
 -HTML
+
 -JS
+
 -CSS
 
-Esto no hubiera sido posible sin el gran apoyo de mis couches.
+Esto no hubiera sido posible sin el gran apoyo de mis couches, que constantemente aclaraban
+mis dudas y me indicaban el paso a seguir.
