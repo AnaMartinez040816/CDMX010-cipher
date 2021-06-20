@@ -4,11 +4,14 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Instruccions de uso](#3-instrucciones-de-uso)
+* [3. Proceso de desarrollo](#3-proceso-de-desarrollo)
+* [4. Instruccions de uso](#4-instrucciones-de-uso)
+* [5. Demostración](#5-demo)
++ [6. Retrospectiva](#6-retrospectiva)
 
 ***
 
-## 1. Preámbulo
+## 1. Preámbulo.
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
@@ -35,11 +38,12 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
-## 2. Resumen del proyecto
+## 2. Objetivo del proyecto.
 
-La temática del proyecto es facilitar la comunicación de una organización de 
+La objetivo del proyecto es facilitar la comunicación de una organización de 
 derechos humanos con sus aliados en una zona de conflicto de manera directa.
-El objetivo es que se envien información encriptada para lograr realizar sus 
+
+Logrando que los mensajes se envien de forma encriptada para lograr realizar sus 
 operaciones, de la manera más discreta posible.
 
 Los usuarios del proyecto son los miembros de la organización y sus aliados.
@@ -49,8 +53,19 @@ Codificando sus mensajes pueen interactuar sin interferencia de terceras persona
 +Dando del texto a proteger, en su caso a desproteger.
 +Obteniendo el cifrado.
 
-## 3. Instrucciones de uso.
+## 3. Proceso de desarrollo.
+
+El proceso utilizado para desarrollar el proyecto fue:
+  -Entender claramente lo que hay que hacer y con que elementos contamos; 
+  -Crear varias alternativas de solución y de estas elegir la mejor;
+  -Desarrollar;
+  -Implementar.
+
+![proceso-creativo](/src/assets/proceso.png)
+
+## 4. Instrucciones de uso.
 +Para usar este proyecto se requieren:
+
  a) un editor como Atom o Visual Studio Code.
  b) una shell con CLI y cmder
  c) acceso a github.
@@ -61,5 +76,22 @@ Codificando sus mensajes pueen interactuar sin interferencia de terceras persona
  c) con el editor abrir la carpeta creada
  d) instalar las dependencias del proyecto con 'npm install'
  e) para utilizar el programa se usa el comando 'npm start' que nos da el host en el browser
- f) copiar 'http://localhost:5000' en la ventana del browser y listo !!.
-    ya puedes codificar mensajes
+ f) copiar 'http://localhost:5000' o la url dada por el comando anterior en la ventana del browser y listo !!.
+    ya puedes codificar y decodificar mensajes.
+
+## 5. Demostración.
+
+Aqui se muestra el funcionamiento de la aplicación.
+
+![demostración](/src/assets/cipherdemo.gif)
+
+## 6. Retrospectiva.
+
+Para el desarrollo de este proyecto inicié el aprendizaje de varias herramientas, entre ellas:
+-Metodología Ágil
+-Editor Visual Estudio Code y su Chell
+-HTML
+-JS
+-CSS
+
+Esto no hubiera sido posible sin el gran apoyo de mis couches.
