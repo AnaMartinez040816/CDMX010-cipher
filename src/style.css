@@ -3,6 +3,7 @@ body {
   background: url("./assets/maquina.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
 }
 
 .inputdata {
