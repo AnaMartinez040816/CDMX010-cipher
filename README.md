@@ -108,6 +108,8 @@ Para el desarrollo de este proyecto inicié el aprendizaje de varias herramienta
 
 -Metodología Ágil
 
+-Trello
+
 -Editor Visual Estudio Code y su Shell
 
 -HTML
